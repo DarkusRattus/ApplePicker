@@ -16,5 +16,14 @@ public class Basket : MonoBehaviour {
 
 	}
 
+    void OnCollisionEnter(Collision coll)
+    {
+        // Find out what hit the Basket
+        GameObject collideWith = coll.gameObject;
+        if (collideWith.tag == "Apple")
+        {
+            Destroy(collideWith);
+        }
+    }
 
 }
