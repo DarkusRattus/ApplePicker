@@ -284,6 +284,18 @@ Prefab:
       propertyPath: applePrefab
       value: 
       objectReference: {fileID: 127358, guid: 041ad1f37ce1645dbaaba1027c4186ab, type: 2}
+    - target: {fileID: 147854, guid: d7f01940a165244a1b0ed8ac30262aad, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 147852, guid: d7f01940a165244a1b0ed8ac30262aad, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 147856, guid: d7f01940a165244a1b0ed8ac30262aad, type: 2}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d7f01940a165244a1b0ed8ac30262aad, type: 2}
   m_IsPrefabParent: 0
