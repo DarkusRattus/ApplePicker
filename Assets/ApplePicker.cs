@@ -8,7 +8,6 @@ public class ApplePicker : MonoBehaviour {
     public float basketBottomY = -14f;
     public float basketSpacingY = 2f;
 
-	// Use this for initialization
 	void Start () {
 	    for (int i = 0; i < numBaskets; i++)
         {
@@ -18,5 +17,15 @@ public class ApplePicker : MonoBehaviour {
             tBasketGO.transform.position = pos;
         }
 	}
+
+    public void AppleDestroyed()
+    {
+        // Dstroy all of the falling Apples
+        GameObject[] tAppleArray = GameObject.FindGameObjectsWithTag("Apple");
+        foreach(GameObject tGO in tAppleArray)
+        {
+            Destroy(tGO);
+        }
+    }
  
 }
