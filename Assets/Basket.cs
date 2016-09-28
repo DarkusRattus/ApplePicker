@@ -38,6 +38,12 @@ public class Basket : MonoBehaviour {
         int score = int.Parse(scoreGT.text); // Parse the text of scoreGT to an integer
         score += 100; // Add 100 to that video
         scoreGT.text = score.ToString(); // Convert the score to a string and assign it to scoreGT's text
+
+        // Track the high score
+        if (score > HighScore.score)
+        {
+            HighScore.score = score;
+        }
     }
 
 }
