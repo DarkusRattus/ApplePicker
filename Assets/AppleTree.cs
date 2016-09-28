@@ -3,8 +3,6 @@ using System.Collections;
 
 public class AppleTree : MonoBehaviour
 {
-
-
     public GameObject applePrefab; // Prefab for Apple instantiation
     public float speed = 1f; // Speed at which the AppleTree moves in meters/second
     public float leftAndRightEdge = 10f; // Distance where AppleTree turns around
