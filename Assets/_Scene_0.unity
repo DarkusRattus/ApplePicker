@@ -252,6 +252,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   basketPrefab: {fileID: 192158, guid: de728fd4f99f94c76a8a65699f3ca6fe, type: 2}
+  basketList: []
   numBaskets: 3
   basketBottomY: -14
   basketSpacingY: 2
@@ -265,6 +266,7 @@ GameObject:
   - 224: {fileID: 800927340}
   - 222: {fileID: 800927342}
   - 114: {fileID: 800927341}
+  - 114: {fileID: 800927343}
   m_Layer: 5
   m_Name: HighScore
   m_TagString: Untagged
@@ -329,6 +331,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 800927339}
+--- !u!114 &800927343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 800927339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4523a19bc45a92f4d8e224735f137470, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1067226010
 GameObject:
   m_ObjectHideFlags: 0
